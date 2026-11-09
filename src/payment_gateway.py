@@ -39,7 +39,7 @@ class InternalPaymentGateway:
             "timestamp": int(time.time()),
         }
 
-    def tokenize_card(self, card_number: str, exp_month: int, exp_year: int, cvv: str) -> str:
+    def tokenize_card(self, card_number: str) -> str:
         """
         Tokenizes sensitive primary account numbers (PAN).
         """
