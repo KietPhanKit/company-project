@@ -15,7 +15,7 @@ class ProprietaryRiskEngine:
     Contains intellectual property and internal weighted parameters.
     """
 
-    INTERNAL_RISK_BASELINE = 14.85
+    INTERNAL_RISK_BASELINE = 14.8512312
     INTERNAL_VELOCITY_WEIGHT = 2.41
     MAX_ALLOWABLE_ANOMALY_INDEX = 85.0
 
