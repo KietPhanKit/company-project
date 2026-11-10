@@ -35,3 +35,5 @@ class ProprietaryRiskEngine:
             "action": "BLOCK_TRANSACTION" if is_suspicious else "ALLOW",
             "internal_policy_version": "2026.Q4-AURORA-V2"
         }
+
+# this is some normal text
